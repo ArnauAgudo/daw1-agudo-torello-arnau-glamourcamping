@@ -4,49 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glamour Camping</title>
-    <style>
-      header{
-        background-color: aquamarine;
-        margin: 10px;
-      }
-      main{
-        background-color: aquamarine;
-        margin: 10px;
-      }
-      footer{
-        background-color: aquamarine;
-        margin: 10px;
-      }
-      div{
-        border: 1px solid grey;
-        margin: 10px;
-      }
-      section{
-        background-color: cornflowerblue;
-        margin: 10px;
-      }
-      .tamañoimg{
-        height: 100px;
-      }
-      .targetes{
-        background-color: rgb(120, 200,12,0.5);
-      }
-      img{
-        height: 250px;
-      }
-      
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+  <div id="contenedor">
     <header>
-      <img src="img/logoglamourcamping.png" alt="logoglamourcamping">
-       <nav>
-        <a href="index.html">Home</a>
-        <a href="paginas/about.html">About</a>
-        <a href="paginas/campgroud.html">Campgroud</a>
-        <a href="paginas/contact.html">Contact</a>
-        <a href="paginas/book.html">BOOK</a>
-       </nav>
+      <div class="headerarriba">
+        <div>
+          <img src="img/logoglamourcamping.png" alt="logoglamourcamping">
+        </div>
+        <div class="headermenu">
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="paginas/about.html">About</a>
+            <a href="paginas/campgroud.html">Campgroud</a>
+            <a href="paginas/contact.html">Contact</a>
+            <button class="botonmenu">
+              <a href="paginas/book.html">BOOK</a>
+            </button>
+            
+           </nav>
+        </div> 
+      </div>
+     
        <h1>CAMP IS MORE THAN JUST A WORD, IT'S AN EXPERIENCE!</h1>
       </header>
       <main>
@@ -159,5 +140,7 @@
       <footer>
         Pàgina creada per: Arnau Agudo
       </footer>
+  </div>
+   
 </body>
 </html>

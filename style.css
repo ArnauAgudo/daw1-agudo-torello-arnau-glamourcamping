@@ -5,6 +5,33 @@ body{
     font-optical-sizing: auto; 
 }
 
+#contenedor{
+    max-width: 1477px;
+    background-color: #ffffff;
+    margin: 0 auto 0 auto;
+    padding: 20px 55px 0 55px;
+}
+
+.headerarriba{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.headerarriba div img{
+    height: 100px;
+}
+
+.headermenu nav a{
+   text-decoration: none;
+   color: black;
+   padding-right: 20px;
+}
+
+.botonmenu a{
+    justify-content: center;
+}
+
 .titolarticle{
     color: #345E40; 
     text-align: center; 
