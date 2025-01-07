@@ -3,13 +3,19 @@ body{
     font-family: "Inter", sans-serif;
     font-weight: 100;
     font-optical-sizing: auto; 
+    background-color: rgb(247, 245, 245);
 }
 
 #contenedor{
     max-width: 1477px;
-    background-color: #ffffff;
+    background-color: rgb(221, 221, 210);
     margin: 0 auto 0 auto;
     padding: 20px 55px 0 55px;
+}
+
+header{
+    background: url('img/Banner.png')  no-repeat center center/cover;
+
 }
 
 .headerarriba{
@@ -22,14 +28,282 @@ body{
     height: 100px;
 }
 
+.botonmenu{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #ffffff;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
 .headermenu nav a{
    text-decoration: none;
-   color: black;
+   color: rgb(255, 255, 255);
    padding-right: 20px;
 }
 
-.botonmenu a{
+
+
+.tituloheader{
+    text-align: left;
+    color: white;
+    padding-left: 10%;
+    padding-right: 65%;
+    height: 450px;
+
+}
+
+#cards{
     justify-content: center;
+    text-align: center;
+}
+
+.about h2{
+    font-size: small;
+    color: #97A483;
+    padding-top: 100px;
+
+}
+
+.about h1{
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 50px;
+}
+
+.about p{
+    padding-left: 15%;
+    padding-right: 15%;
+   
+}
+
+.logoscampers{
+    display: flex;
+    justify-content: center;
+}
+
+.logoscamper2{
+    margin: 50px;
+}
+
+.imagenesabout{
+    display: flex;
+}
+
+.imagenesabout div img{
+    height: 300px;
+}
+
+.imagenesabout2{
+    margin: 25px;
+}
+
+.activity{
+    display: flex;
+}
+
+.activitytitulo h2{
+    font-size: small;
+    color: #97A483;
+    
+}
+
+.activitytitulo{
+    padding-top: 15px;
+    padding-left: 10%;
+}
+
+.activitylogos{
+    display: flex;
+}
+
+.activitylogos2{
+    display: flex;
+}
+
+.activitylogostamaño{
+    padding-left: 20%;
+}
+
+#action{
+    background: url('img/imagenaction.png')  no-repeat center center/cover;
+    height: 500px;
+    
+}
+
+.textoaction{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
+    font-size: larger;
+}
+
+.textoaction button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #ffffff;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+.booking{
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.booking h1{
+    font-size: small;
+    color: #97A483; 
+}
+
+.booking h2{
+    padding-left: 41%;
+    padding-right: 41%;
+}
+
+.booking2{
+    display: flex;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.booking2 div img{
+    height: 400px;
+    
+}
+
+.booking2 div h3{
+    text-align: left;
+    padding-left: 5%;
+    color: #345E40;
+    
+}
+
+.booking2 div p{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 10%;
+    
+}
+
+.booking2 div button{
+    background-color: #345E40;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+.newstitulo{
+    font-size: small;
+    color: #97A483;
+    padding-left: 10%;
+    padding-right: 14%;
+    padding-top: 5%;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 14%;
+ 
+}
+
+.news button{
+    background-color: #345E40;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+.newsarticulos{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.newsarticulos div img{
+    height: 200px;
+}
+
+.newsarticulos div p{
+    padding-right: 100px;
+}
+
+.newsarticulos div nav a{
+    text-decoration: none;
+    color: #2D2D2D;
+   
+}
+
+.gallery{
+    display: flex;
+    padding-top: 10%;
+}
+
+.gallery div img{
+    height: 600px;
+    position: relative;
+}
+
+.gallery div h1{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.gallery div p{
+    padding-left: 10%;
+    padding-right: 40%;
+}
+
+.casamadera{
+    position: absolute;
+    top: 5300px;  
+    left: 550px;  
+    width: 300PX;
+    object-fit: contain;
+}
+
+footer{
+    background-color: #345E40;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+    color: white;
+}
+
+.footer2{
+    display: flex;
+    padding-right: 200px;
+}
+
+.footer2 p{
+    display: flex;
+    padding-right: 20px;
+}
+
+.footer21 p{
+   
+    padding-right: 500px;
+}
+
+.footer3{
+    display: flex;
+    height: 100px;
+}
+
+.footer3 img{
+    height: 30px;
 }
 
 .titolarticle{
