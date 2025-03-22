@@ -2,19 +2,24 @@ body{
     color: #2D2D2D;
     font-family: "Inter", sans-serif;
     font-weight: 100;
-    font-optical-sizing: auto; 
+    font-optical-sizing: auto;
     background-color: rgb(247, 245, 245);
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #contenedor{
-    max-width: 1477px;
+    width: 100%;
+    max-width: 1740px;
     background-color: rgb(221, 221, 210);
-    margin: 0 auto 0 auto;
-    padding: 20px 55px 0 55px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 header{
     background: url('img/Banner.png')  no-repeat center center/cover;
+    
 
 }
 
@@ -150,53 +155,62 @@ header{
     width: 200px;
 }
 
-.booking{
-    justify-content: center;
-    text-align: center;
-    padding-top: 5%;
-}
-
-.booking h1{
-    font-size: small;
-    color: #97A483; 
-}
-
-.booking h2{
-    padding-left: 41%;
-    padding-right: 41%;
-}
-
-.booking2{
+.booking {
     display: flex;
-    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 5% 5%; 
+    box-sizing: border-box;
+}
+
+.booking h1 {
+    font-size: small;
+    color: #97A483;
+}
+
+.booking h2 {
+    max-width: 800px;
+}
+
+.booking2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 200px; 
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 100px;
+}
+
+.booking2 div {
+    flex: 1;
+    min-width: 300px; 
     text-align: left;
 }
 
-.booking2 div img{
-    height: 400px;
-    
+.booking2 div img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
 }
 
-.booking2 div h3{
-    text-align: left;
+.booking2 div h3, 
+.booking2 div p {
     padding-left: 5%;
-    color: #345E40;
-    
+    padding-right: 5%;
 }
 
-.booking2 div p{
-    text-align: left;
-    padding-left: 5%;
-    padding-right: 10%;
-    
-}
-
-.booking2 div button{
+.booking2 div button {
     background-color: #345E40;
     color: white;
     border-radius: 5px;
-    height: 30px;
+    height: 40px;
     width: 200px;
+    margin-left: 5%;
 }
 
 .newstitulo{
